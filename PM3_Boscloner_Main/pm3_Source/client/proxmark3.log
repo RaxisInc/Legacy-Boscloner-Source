@@ -1,0 +1,50 @@
+#db# Prox/RFID mark3 RFID instrument       
+#db# bootrom: svn 852-unclean 2015-11-17 21:51:52       
+#db# os: svn 852-unclean 2015-11-17 21:46:58       
+#db# FPGA image built on 2014/03/24 at 21:54:44       
+uC: AT91SAM7S256 Rev A
+Embedded Processor: ARM7TDMI
+Nonvolatile Program Memory Size: 256K bytes
+Second Nonvolatile Program Memory Size: None
+Internal SRAM Size: 256K bytes
+Architecture Identifier: AT91SAM7Sxx Series
+Nonvolatile Program Memory Type: Embedded Flash Memory
+#db# Stand-alone mode! No PC necessary.       
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+help             This help
+detectreader     ['l'|'h'] -- Detect external reader field (option 'l' or 'h' to limit to LF or HF)
+fpgaoff          Set FPGA off
+lcd              <HEX command> <count> -- Send command/data to LCD
+lcdreset         Hardware reset LCD
+readmem          [address] -- Read memory at decimal address from flash
+reset            Reset the Proxmark3
+setlfdivisor     <19 - 255> -- Drive LF antenna at 12Mhz/(divisor+1)
+setmux           <loraw|hiraw|lopkd|hipkd> -- Set the ADC mux to a specific value
+tune             Measure antenna tuning
+version          Show version inforation about the connected Proxmark
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script

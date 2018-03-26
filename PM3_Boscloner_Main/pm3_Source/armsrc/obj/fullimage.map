@@ -1,0 +1,789 @@
+Archive member included because of file (symbol)
+
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+                              obj/iso15693.o (__gnu_thumb1_case_uqi)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_shi.o)
+                              obj/printf.o (__gnu_thumb1_case_shi)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_udivsi3.o)
+                              obj/hitag2.o (__aeabi_uidiv)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_divsi3.o)
+                              obj/lfops.o (__aeabi_idiv)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_dvmd_tls.o)
+                              h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_lshrdi3.o)
+                              obj/hitag2.o (__aeabi_llsr)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_ashldi3.o)
+                              obj/hitag2.o (__aeabi_llsl)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+                              obj/appmain.o (__aeabi_ulcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+password            0x4               obj/hitag2.o
+NrAr                0x8               obj/hitag2.o
+LastTimeProxToAirStart
+                    0x4               obj/iso14443a.o
+BigBuf              0x9c40            obj/start.o
+ToSend              0x200             obj/appmain.o
+timer               0x4               obj/legicrf.o
+timestamp           0x4               obj/legicrf.o
+cipher_state        0x8               obj/hitag2.o
+LastProxToAirDuration
+                    0x4               obj/iso14443a.o
+bSuccessful         0x1               obj/hitag2.o
+bPwd                0x1               obj/hitag2.o
+prng_timer          0x4               obj/legicrf.o
+blocknr             0x4               obj/hitag2.o
+forwardLink_data    0x40              obj/lfops.o
+bCrypto             0x1               obj/hitag2.o
+fwd_write_ptr       0x4               obj/lfops.o
+FpgaSendQueueDelay  0x2               obj/iso14443a.o
+lfsr                0x8               obj/legic_prng.o
+forward_ptr         0x4               obj/lfops.o
+key                 0x8               obj/hitag2.o
+fwd_bit_sz          0x1               obj/lfops.o
+bAuthenticating     0x1               obj/hitag2.o
+csrTab              0x190             obj/usb_cdc.o
+ToSendMax           0x4               obj/appmain.o
+NextTransferTime    0x4               obj/iso14443a.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/version.o
+ .data          0x00000000        0x0 obj/version.o
+ .bss           0x00000000        0x0 obj/version.o
+ .text          0x00000000        0x0 obj/start.o
+ .data          0x00000000        0x0 obj/start.o
+ .bss           0x00000000        0x0 obj/start.o
+ .data          0x00000000        0x0 obj/boscloner.o
+ .data          0x00000000        0x0 obj/iso15693.o
+ .data          0x00000000        0x0 obj/iso15693tools.o
+ .data          0x00000000        0x0 obj/lfops.o
+ .bss           0x00000000        0x0 obj/lfops.o
+ .data          0x00000000        0x0 obj/appmain.o
+ .data          0x00000000        0x0 obj/printf.o
+ .bss           0x00000000        0x0 obj/printf.o
+ .data          0x00000000        0x0 obj/util.o
+ .data          0x00000000        0x0 obj/string.o
+ .bss           0x00000000        0x0 obj/string.o
+ COMMON         0x00000000      0x190 obj/usb_cdc.o
+ .data          0x00000000        0x0 obj/cmd.o
+ .bss           0x00000000        0x0 obj/cmd.o
+ .data          0x00000000        0x0 obj/fpgaloader.o
+ .data          0x00000000        0x0 obj/legicrf.o
+ .data          0x00000000        0x0 obj/iso14443crc.o
+ .bss           0x00000000        0x0 obj/iso14443crc.o
+ .data          0x00000000        0x0 obj/crc16.o
+ .bss           0x00000000        0x0 obj/crc16.o
+ .data          0x00000000        0x0 obj/epa.o
+ .bss           0x00000000        0x0 obj/epa.o
+ .bss           0x00000000        0x0 obj/mifareutil.o
+ .data          0x00000000        0x0 obj/mifarecmd.o
+ .data          0x00000000        0x0 obj/mifaresniff.o
+ .data          0x00000000        0x0 obj/iso14443.o
+ .text          0x00000000     0x1004 obj/crapto1.o
+ .data          0x00000000        0x0 obj/crapto1.o
+ .bss           0x00000000   0x100004 obj/crapto1.o
+ .text.startup  0x00000000       0xb8 obj/crapto1.o
+ .init_array    0x00000000        0x4 obj/crapto1.o
+ .rodata        0x00000000      0x1f0 obj/crapto1.o
+ .comment       0x00000000       0x23 obj/crapto1.o
+ .ARM.attributes
+                0x00000000       0x32 obj/crapto1.o
+ .data          0x00000000        0x0 obj/crypto1.o
+ .bss           0x00000000        0x0 obj/crypto1.o
+ .data          0x00000000        0x0 obj/legic_prng.o
+ .bss           0x00000000        0x0 obj/legic_prng.o
+ .data          0x00000000        0x0 obj/iclass.o
+ .data          0x00000000        0x0 obj/crc.o
+ .bss           0x00000000        0x0 obj/crc.o
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_shi.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_shi.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_ashldi3.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_ashldi3.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bootphase1       0x00100000         0x00000200
+bootphase2       0x00100200         0x00001e00
+fpgaimage        0x00102000         0x0000e000
+osimage          0x00110000         0x00030000
+ram              0x00200000         0x0000ffe0
+commonarea       0x0020ffe0         0x00000020
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x001001fc                _bootphase1_version_pointer = ((ORIGIN (bootphase1) + 0x200) - 0x4)
+                0x00110000                _osimage_entry = ORIGIN (osimage)
+                0x00100000                _bootrom_start = ORIGIN (bootphase1)
+                0x00102000                _bootrom_end = (ORIGIN (bootphase2) + 0x1e00)
+                0x00100000                _flash_start = ORIGIN (bootphase1)
+                0x00140000                _flash_end = (ORIGIN (osimage) + 0x30000)
+                0x0020ffd8                _stack_end = ((ORIGIN (ram) + 0xffe0) - 0x8)
+
+.fpgaimage      0x00102000     0xa4bc
+ *(fpga_bit.data)
+ fpga_bit.data  0x00102000     0xa4bc obj/fpga.o
+                0x00102000                _binary_fpga_bit_start
+                0x0010c4bc                _binary_fpga_bit_end
+
+.start          0x00110000       0x40
+ *(.startos)
+ .startos       0x00110000       0x40 obj/start.o
+                0x00110000                Vector
+
+.text           0x00110040    0x12af8
+ *(.text)
+ .text          0x00110040      0x284 obj/boscloner.o
+                0x00110040                get_id_hi
+                0x0011004c                get_id_lo
+                0x00110058                bos_send_ack
+                0x00110090                bos_send_rxbuf
+                0x001100c0                clear_id_vals
+                0x001100dc                clear_rxBuff
+                0x001100f8                boscloner_setupspi
+                0x00110138                send_clone_packet_orig
+                0x001101cc                send_clone_packet
+                0x00110284                boscloner_tasks
+                0x001102a0                boslconer_heartbeat
+ .text          0x001102c4      0xef0 obj/iso15693.o
+                0x00110664                AcquireRawAdcSamplesIso15693
+                0x0011074c                RecordRawAdcSamplesIso15693
+                0x001107fc                Iso15693InitReader
+                0x0011084c                SendDataTag
+                0x00110994                DbdecodeIso15693Answer
+                0x00110ab8                SetDebugIso15693
+                0x00110ae4                ReaderIso15693
+                0x00110d3c                SimTagIso15693
+                0x00111048                BruteforceIso15693Afi
+                0x00111108                DirectTag15693Command
+ .text          0x001111b4       0x9c obj/iso15693tools.o
+                0x001111b4                Iso15693Crc
+                0x001111f4                Iso15693AddCrc
+                0x0011120e                Iso15693sprintUID
+ .text          0x00111250     0x1ab8 obj/lfops.o
+                0x00111320                DoAcquisition125k
+                0x0011139c                AcquireRawAdcSamples125k
+                0x001113ec                ModThenAcquireRawAdcSamples125k
+                0x001114cc                WriteTIbyte
+                0x00111518                AcquireTiType
+                0x0011160c                ReadTItag
+                0x0011178c                WriteTItag
+                0x001118b0                SimulateTagLowFrequency
+                0x00111970                SimulateTagLowFrequencyBidir
+                0x00111972                CmdHIDsimTAG
+                0x00111a8c                CmdHIDdemodFSK
+                0x00111df8                T55xxWriteBit
+                0x00111e2c                T55xxWriteBlock
+                0x00111ed4                T55xxReadBlock
+                0x00111fb4                T55xxReadTrace
+                0x00112064                CopyHIDtoT55x7
+                0x001122b0                WriteEM410x
+                0x00112484                CopyIndala64toT55x7
+                0x001124c0                CopyIndala224toT55x7
+                0x0011253c                DemodPCF7931
+                0x001126c0                IsBlock0PCF7931
+                0x00112710                IsBlock1PCF7931
+                0x00112744                ReadPCF7931
+                0x00112a58                Prepare_Cmd
+                0x00112a7c                Prepare_Addr
+                0x00112ab0                Prepare_Data
+                0x00112b20                SendForward
+                0x00112bd0                EM4xLogin
+                0x00112c0c                EM4xReadWord
+                0x00112ca4                EM4xWriteWord
+ .text          0x00112d08     0x20d0 obj/hitag2.o
+                0x00113018                LogTraceHitag
+                0x001130d4                hitag2_reset
+                0x001130e4                hitag2_init
+                0x001130f2                hitag2_handle_reader_command
+                0x00113a3c                hitag2_password
+                0x00113b38                hitag2_crypto
+                0x00114278                hitag2_authenticate
+                0x00114300                hitag2_test_auth_attempts
+                0x00114420                SnoopHitag
+                0x001146c4                SimulateHitagTag
+                0x00114948                ReaderHitag
+ .text          0x00114dd8     0x1e50 obj/appmain.o
+                0x00114e08                ToSendReset
+                0x00114e20                DbpString
+                0x00114e42                ToSendStuffBit
+                0x00114eb0                Dbprintf
+                0x00114ed4                BufferClear
+                0x00114efc                Dbhexdump
+                0x00114f7c                AvgAdc
+                0x00114f9c                MeasureAntennaTuning
+                0x00115098                MeasureAntennaTuningHf
+                0x001150e8                SimulateTagHfListen
+                0x0011515c                ReadMem
+                0x0011518c                SendVersion
+                0x00115218                SamyRun
+                0x001153b4                ListenReaderField
+                0x001155b0                UsbPacketReceived
+                0x00116ad4                AppMain
+ .text          0x00116c28      0x758 obj/printf.o
+                0x00116c28                kvsprintf
+                0x0011734c                vsprintf
+                0x00117362                sprintf
+ .text          0x00117380      0x458 obj/util.o
+                0x00117380                nbytes
+                0x0011738e                SwapBits
+                0x001173b4                num_to_bytes
+                0x001173cc                bytes_to_num
+                0x001173f6                LEDsoff
+                0x00117414                BUTTON_CLICKED
+                0x001174d4                BUTTON_HELD
+                0x00117558                SpinDelayUs
+                0x001175a8                SpinDelay
+                0x001175ba                LED
+                0x00117634                FormatVersionInformation
+                0x001176dc                StartTickCount
+                0x001176ec                StartCountUS
+                0x00117738                StartCountSspClk
+ .text          0x001177d8      0x12e obj/string.o
+                0x001177d8                memcpy
+                0x001177f0                memset
+                0x00117808                memcmp
+                0x0011782e                strlen
+                0x00117844                strncat
+                0x00117872                strcat
+                0x00117898                strreverse
+                0x001178be                itoa
+ *fill*         0x00117906        0x2 00
+ .text          0x00117908      0x558 obj/usb_cdc.o
+                0x0011797e                usb_disable
+                0x001179a4                usb_enable
+                0x001179fc                AT91F_USB_SendZlp
+                0x00117a20                AT91F_USB_SendStall
+                0x00117a44                AT91F_CDC_Enumerate
+                0x00117cbc                usb_check
+                0x00117d10                usb_write
+                0x00117dc0                usb_read
+                0x00117e38                usb_poll
+ .text          0x00117e60       0xac obj/cmd.o
+                0x00117e60                cmd_receive
+                0x00117e8c                cmd_send
+ .text          0x00117f0c      0x62c obj/fpgaloader.o
+                0x00118164                SetupSpi
+                0x001181e8                FpgaSetupSsc
+                0x00118240                FpgaSetupSscDma
+                0x00118270                bitparse_find_section
+                0x00118308                FpgaDownloadAndGo
+                0x001183bc                FpgaGatherVersion
+                0x001184b8                FpgaSendCommand
+                0x001184f4                FpgaWriteConfWord
+                0x00118500                SetAdcMuxFor
+ .text          0x00118538     0x10b4 obj/legicrf.o
+                0x00118eac                legic_read_byte
+                0x00118f64                legic_write_byte
+                0x001190c8                LegicRfReader
+                0x00119248                LegicRfWriter
+                0x001193c8                LegicRfSimulate
+ .text          0x001195ec       0xd4 obj/iso14443crc.o
+                0x001195ec                ComputeCrc14443
+                0x00119658                CheckCrc14443
+ .text          0x001196c0       0x40 obj/crc16.o
+                0x001196c0                update_crc16
+ .text          0x00119700      0x518 obj/epa.o
+                0x00119700                EPA_Finish
+                0x0011974c                EPA_Parse_CardAccess
+                0x0011988c                EPA_Read_CardAccess
+                0x00119940                EPA_PACE_Get_Nonce
+                0x001199e8                EPA_PACE_MSE_Set_AT
+                0x00119aa8                EPA_Setup
+                0x00119b24                EPA_PACE_Collect_Nonce
+ .text          0x00119c18     0x392c obj/iso14443a.o
+                0x00119ecc                iso14a_set_trigger
+                0x00119edc                iso14a_clear_trace
+                0x00119f14                iso14a_set_tracing
+                0x00119f24                iso14a_set_timeout
+                0x00119f34                oddparity
+                0x00119f44                GetParity
+                0x00119f80                AppendCrc14443a
+                0x00119fb4                UartReset
+                0x00119fe8                DemodReset
+                0x0011a0f4                reset_free_buffer
+                0x0011a10c                prepare_tag_modulation
+                0x0011a1a8                prepare_allocated_tag_modulation
+                0x0011a1f8                PrepareDelayedTransfer
+                0x0011a288                CodeIso14443aBitsAsReaderPar
+                0x0011a464                CodeIso14443aAsReaderPar
+                0x0011a46c                EmLogTrace
+                0x0011a570                EmSendCmdExPar
+                0x0011a678                EmSendCmdPar
+                0x0011a684                EmSendCmd
+                0x0011a6ac                EmSendCmdEx
+                0x0011a6d8                EmSend4bitEx
+                0x0011a884                EmSend4bit
+                0x0011a88c                ReaderTransmitBitsPar
+                0x0011aab4                ReaderTransmitPar
+                0x0011aabc                ReaderTransmitBits
+                0x0011aaf8                ReaderTransmit
+                0x0011ab24                ReaderReceiveOffset
+                0x0011abb8                ReaderReceive
+                0x0011abc0                ReaderReceivePar
+                0x0011ac64                iso14443a_select_card
+                0x0011b0a4                iso14443a_setup
+                0x0011b110                SimulateIso14443aTag
+                0x0011ba74                iso14_apdu
+                0x0011bb34                ReaderIso14443a
+                0x0011bd48                dist_nt
+                0x0011bdd0                ReaderMifare
+                0x0011c2dc                Mifare1ksim
+ .text          0x0011d544     0x1098 obj/mifareutil.o
+                0x0011d5dc                mifare_get_bigbufptr
+                0x0011d5e8                eml_get_bigbufptr_sendbuf
+                0x0011d5f4                eml_get_bigbufptr_recbuf
+                0x0011d600                eml_get_bigbufptr_cardmem
+                0x0011d60c                mf_crypto1_decrypt
+                0x0011d69c                mf_crypto1_encrypt
+                0x0011d738                mf_crypto1_encrypt4bit
+                0x0011d788                mifare_sendcmd_short_special
+                0x0011d80c                mifare_sendcmd_shortex
+                0x0011d978                mifare_sendcmd_short
+                0x0011d9a4                mifare_classic_authex
+                0x0011dc90                mifare_classic_auth
+                0x0011dcd0                mifare_classic_readblock
+                0x0011ddec                mifare_ultra_readblock
+                0x0011df08                mifare_classic_writeblock
+                0x0011e0ac                mifare_ultra_writeblock
+                0x0011e1cc                mifare_ultra_special_writeblock
+                0x0011e26c                mifare_classic_halt
+                0x0011e2d0                mifare_ultra_halt
+                0x0011e334                emlSetMem
+                0x0011e35c                emlGetMem
+                0x0011e37c                emlGetMemBt
+                0x0011e398                emlCheckValBl
+                0x0011e478                emlGetValBl
+                0x0011e4d0                emlSetValBl
+                0x0011e50c                emlGetKey
+                0x0011e54c                emlClearMem
+ .text          0x0011e5dc     0x2058 obj/mifarecmd.o
+                0x0011e5dc                MifareReadBlock
+                0x0011e7cc                MifareUReadBlock
+                0x0011e938                MifareReadSector
+                0x0011ec04                MifareUReadCard
+                0x0011ed9c                MifareWriteBlock
+                0x0011ef98                MifareUWriteBlock
+                0x0011f11c                MifareUWriteBlock_Special
+                0x0011f288                valid_nonce
+                0x0011f350                MifareNested
+                0x0011fae4                MifareChkKeys
+                0x0011fc98                MifareSetDbgLvl
+                0x0011fcc0                MifareEMemClr
+                0x0011fcd0                MifareEMemSet
+                0x0011fcf0                MifareEMemGet
+                0x0011fd50                MifareECardLoad
+                0x0012008c                MifareCSetBlock
+                0x0012040c                MifareCGetBlock
+ .text          0x00120634      0x134 obj/mifaresniff.o
+                0x00120634                MfSniffInit
+                0x0012066c                MfSniffEnd
+                0x001206ac                intMfSniffSend
+ .text          0x00120768      0xe04 obj/iso14443.o
+                0x00120c88                SimulateIso14443Tag
+                0x00121098                ReadSTMemoryIso14443
+                0x00121454                SendRawCommand14443B
+                0x00121534                AcquireRawAdcSamplesIso14443
+ .text          0x0012156c      0x2f0 obj/crypto1.o
+                0x0012156c                crypto1_create
+                0x001215e8                crypto1_destroy
+                0x001215f8                crypto1_get_lfsr
+                0x00121650                crypto1_bit
+                0x0012176c                crypto1_byte
+                0x001217b8                crypto1_word
+                0x00121804                prng_successor
+ .text          0x0012185c       0xd8 obj/legic_prng.o
+                0x0012185c                legic_prng_init
+                0x00121884                legic_prng_forward
+                0x001218e8                legic_prng_count
+                0x001218f8                legic_prng_get_bit
+ .text          0x00121934      0xc04 obj/iclass.o
+                0x00121a30                rotateCSN
+                0x00121a68                SimulateIClass
+                0x00121ff4                CodeIClassCommand
+                0x001220f0                ReaderTransmitIClass
+                0x0012225c                ReaderReceiveIClass
+                0x00122384                ReaderIClass
+ .text          0x00122538       0x8c obj/crc.o
+                0x00122538                crc_update
+                0x0012257c                crc_clear
+                0x00122590                crc_init
+                0x001225ac                crc_finish
+ .text          0x001225c4       0x14 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+                0x001225c4                __gnu_thumb1_case_uqi
+ .text          0x001225d8       0x14 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_shi.o)
+                0x001225d8                __gnu_thumb1_case_shi
+ .text          0x001225ec      0x114 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_udivsi3.o)
+                0x001225ec                __aeabi_uidiv
+                0x001225ec                __udivsi3
+                0x001226e0                __aeabi_uidivmod
+ .text          0x00122700      0x148 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_divsi3.o)
+                0x00122700                __divsi3
+                0x00122700                __aeabi_idiv
+                0x00122828                __aeabi_idivmod
+ .text          0x00122848        0x4 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_dvmd_tls.o)
+                0x00122848                __aeabi_idiv0
+                0x00122848                __aeabi_ldiv0
+ .text          0x0012284c       0x1c h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_lshrdi3.o)
+                0x0012284c                __lshrdi3
+                0x0012284c                __aeabi_llsr
+ .text          0x00122868       0x1c h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_ashldi3.o)
+                0x00122868                __aeabi_llsl
+                0x00122868                __ashldi3
+ .text          0x00122884       0x24 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+                0x00122884                __aeabi_ulcmp
+ .text.stub     0x001228a8      0x248 linker stubs
+ *(.text.*)
+ *(.eh_frame)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00122b38        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00122b38        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00122b38        0x0
+ .iplt          0x00000000        0x0 obj/start.o
+
+.rodata         0x00122b38     0x25f9
+ *(.rodata)
+ .rodata        0x00122b38      0x280 obj/iso15693.o
+ .rodata        0x00122db8       0x22 obj/lfops.o
+ .rodata        0x00122dda        0x8 obj/appmain.o
+ .rodata        0x00122de2       0x25 obj/printf.o
+                0x00122de2                hex2ascii_data
+ .rodata        0x00122e07       0x6f obj/usb_cdc.o
+                0x00122e07                devDescriptor
+                0x00122e19                cfgDescriptor
+                0x00122e5c                strDescriptor
+ .rodata        0x00122e76        0xd obj/fpgaloader.o
+ .rodata        0x00122e83       0x24 obj/epa.o
+ .rodata        0x00122ea7      0x14e obj/iso14443a.o
+                0x00122ea7                OddByteParity
+                0x00122fa7                Mod_Miller_LUT
+                0x00122fb7                Mod_Manchester_LUT
+ .rodata        0x00122ff5       0x20 obj/mifareutil.o
+ .rodata        0x00123015       0x1c obj/iso14443.o
+ .rodata        0x00123031        0xa obj/iclass.o
+ *(.rodata.*)
+ .rodata.str1.1
+                0x0012303b      0x26c obj/iso15693.o
+                                0x274 (size before relaxing)
+ .rodata.str1.1
+                0x001232a7       0x21 obj/iso15693tools.o
+ .rodata.str1.1
+                0x001232c8      0x3c2 obj/lfops.o
+                                0x412 (size before relaxing)
+ .rodata.str1.1
+                0x0012368a      0x2e9 obj/hitag2.o
+ .rodata.str1.1
+                0x00123973      0x2ca obj/appmain.o
+                                0x2e1 (size before relaxing)
+ .rodata.str1.1
+                0x00123c3d       0x13 obj/printf.o
+ .rodata.str1.1
+                0x00123c50       0x7b obj/util.o
+                                 0x7d (size before relaxing)
+ .rodata.str1.1
+                0x00123ccb       0x50 obj/fpgaloader.o
+ .rodata.str1.1
+                0x00123d1b      0x2fe obj/legicrf.o
+                                0x306 (size before relaxing)
+ .rodata.str1.1
+                0x00124019      0x7f6 obj/iso14443a.o
+                                0x7ff (size before relaxing)
+ .rodata.str1.1
+                0x0012480f      0x142 obj/mifareutil.o
+ .rodata.str1.1
+                0x00124951      0x369 obj/mifarecmd.o
+                                0x391 (size before relaxing)
+ .rodata.str1.1
+                0x00124cba      0x366 obj/iso14443.o
+                                0x370 (size before relaxing)
+ .rodata.str1.1
+                0x00125020       0xe3 obj/iclass.o
+                                0x146 (size before relaxing)
+ *(.version_information)
+ .version_information
+                0x00125103       0x2e obj/version.o
+                0x00125103                version_information
+
+.rel.dyn        0x00125134        0x0
+ .rel.iplt      0x00000000        0x0 obj/start.o
+                0x00125134                . = ALIGN (0x4)
+
+.data           0x00200000     0x29d8 load address 0x00125138
+ *(.data)
+ .data          0x00200000       0x50 obj/hitag2.o
+                0x00200048                auth_table_len
+                0x0020004c                auth_table
+ .data          0x00200050       0x10 obj/usb_cdc.o
+                0x00200050                pUdp
+                0x00200054                line
+                0x0020005c                btReceiveBank
+ .data          0x00200060        0xc obj/iso14443a.o
+                0x00200060                trace
+                0x00200064                tracing
+ .data          0x0020006c        0x4 obj/mifareutil.o
+                0x0020006c                MF_DBGLEVEL
+ *(.data.*)
+ *(.ramfunc)
+ .ramfunc       0x00200070       0x74 obj/util.o
+                0x00200070                GetTickCount
+                0x0020007c                GetCountUS
+                0x002000a4                GetDeltaCountUS
+                0x002000c0                GetCountSspClk
+ .ramfunc       0x002000e4      0xe5c obj/iso14443a.o
+                0x002000e4                LogTrace
+                0x00200890                SnoopIso14443a
+                0x00200c2c                SniffMifare
+ .ramfunc       0x00200f40      0x418 obj/mifaresniff.o
+                0x00200f40                MfSniffLogic
+                0x00201300                MfSniffSend
+ .ramfunc       0x00201358      0x83c obj/iso14443.o
+                0x00201684                SnoopIso14443
+ .ramfunc       0x00201b94      0xde8 obj/iclass.o
+                0x00202474                SnoopIClass
+ *fill*         0x0020297c        0x4 00
+ .ramfunc.stub  0x00202980       0x44 linker stubs
+                0x002029c4                . = ALIGN (0x4)
+                0x00125138                __data_src_start__ = LOADADDR (.data)
+                0x00200000                __data_start__ = ADDR (.data)
+                0x002029d8                __data_end__ = (__data_start__ + SIZEOF (.data))
+
+.igot.plt       0x002029d8        0x0 load address 0x00127b10
+ .igot.plt      0x00000000        0x0 obj/start.o
+
+.bss            0x002029d8     0xa0ec
+                0x002029d8                __bss_start__ = .
+ *(.bss)
+ .bss           0x002029d8       0x40 obj/boscloner.o
+                0x002029e0                pm3_bos_rx
+                0x002029f4                bos_clone_id
+                0x002029f9                flag_clone
+                0x002029fa                bos_clone_status
+                0x002029fb                pm3_bos_tx
+                0x00202a0b                bos_clone_state
+                0x00202a0c                clone_run
+                0x00202a0d                copy_run
+                0x00202a10                copy_count
+                0x00202a14                junk
+ .bss           0x00202a18        0x4 obj/iso15693.o
+                0x00202a18                DEBUG
+ .bss           0x00202a1c       0x11 obj/iso15693tools.o
+ *fill*         0x00202a2d        0x3 00
+ .bss           0x00202a30        0x8 obj/hitag2.o
+                0x00202a30                auth_table_pos
+ .bss           0x00202a38        0x4 obj/appmain.o
+ .bss           0x00202a3c        0x4 obj/util.o
+ .bss           0x00202a40        0x3 obj/usb_cdc.o
+                0x00202a40                btConfiguration
+                0x00202a41                btConnection
+                0x00202a42                csrIdx
+ *fill*         0x00202a43        0x1 00
+ .bss           0x00202a44        0xc obj/fpgaloader.o
+ .bss           0x00202a50       0x3c obj/legicrf.o
+ .bss           0x00202a8c       0x6c obj/iso14443a.o
+                0x00202ab0                trigger
+                0x00202ab4                traceLen
+                0x00202af4                rsamples
+ .bss           0x00202af8        0x6 obj/mifarecmd.o
+ *fill*         0x00202afe        0x2 00
+ .bss           0x00202b00       0x24 obj/mifaresniff.o
+ .bss           0x00202b24       0x44 obj/iso14443.o
+ .bss           0x00202b68       0x78 obj/iclass.o
+ *(.bss.*)
+                0x00202be0                . = ALIGN (0x4)
+                0x00202be0                __bss_end__ = .
+ COMMON         0x00202be0     0x9c40 obj/start.o
+                0x00202be0                BigBuf
+ COMMON         0x0020c820       0x49 obj/lfops.o
+                0x0020c820                forwardLink_data
+                0x0020c860                fwd_write_ptr
+                0x0020c864                forward_ptr
+                0x0020c868                fwd_bit_sz
+ *fill*         0x0020c869        0x7 00
+ COMMON         0x0020c870       0x2a obj/hitag2.o
+                0x0020c870                password
+                0x0020c874                NrAr
+                0x0020c880                cipher_state
+                0x0020c888                bSuccessful
+                0x0020c889                bPwd
+                0x0020c88c                blocknr
+                0x0020c890                bCrypto
+                0x0020c891                key
+                0x0020c899                bAuthenticating
+ *fill*         0x0020c89a        0x2 00
+ COMMON         0x0020c89c      0x204 obj/appmain.o
+                0x0020c89c                ToSend
+                0x0020ca9c                ToSendMax
+ COMMON         0x0020caa0        0xc obj/legicrf.o
+                0x0020caa0                timer
+                0x0020caa4                timestamp
+                0x0020caa8                prng_timer
+ COMMON         0x0020caac       0x10 obj/iso14443a.o
+                0x0020caac                LastTimeProxToAirStart
+                0x0020cab0                LastProxToAirDuration
+                0x0020cab4                FpgaSendQueueDelay
+                0x0020cab8                NextTransferTime
+ COMMON         0x0020cabc        0x8 obj/legic_prng.o
+                0x0020cabc                lfsr
+
+.commonarea     0x0020ffe0        0xf
+ *(.commonarea)
+ .commonarea    0x0020ffe0        0xf obj/appmain.o
+                0x0020ffe0                common_area
+LOAD obj/version.o
+LOAD obj/fpga.o
+LOAD obj/start.o
+LOAD obj/boscloner.o
+LOAD obj/iso15693.o
+LOAD obj/iso15693tools.o
+LOAD obj/lfops.o
+LOAD obj/hitag2.o
+LOAD obj/appmain.o
+LOAD obj/printf.o
+LOAD obj/util.o
+LOAD obj/string.o
+LOAD obj/usb_cdc.o
+LOAD obj/cmd.o
+LOAD obj/fpgaloader.o
+LOAD obj/legicrf.o
+LOAD obj/iso14443crc.o
+LOAD obj/crc16.o
+LOAD obj/epa.o
+LOAD obj/iso14443a.o
+LOAD obj/mifareutil.o
+LOAD obj/mifarecmd.o
+LOAD obj/mifaresniff.o
+LOAD obj/iso14443.o
+LOAD obj/crapto1.o
+LOAD obj/crypto1.o
+LOAD obj/legic_prng.o
+LOAD obj/iclass.o
+LOAD obj/crc.o
+LOAD h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a
+OUTPUT(obj/fullimage.elf elf32-littlearm)
+
+.comment        0x00000000       0x22
+ .comment       0x00000000       0x22 obj/version.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 obj/start.o
+ .comment       0x00000000       0x23 obj/boscloner.o
+ .comment       0x00000000       0x23 obj/iso15693.o
+ .comment       0x00000000       0x23 obj/iso15693tools.o
+ .comment       0x00000000       0x23 obj/lfops.o
+ .comment       0x00000000       0x23 obj/hitag2.o
+ .comment       0x00000000       0x23 obj/appmain.o
+ .comment       0x00000000       0x23 obj/printf.o
+ .comment       0x00000000       0x23 obj/util.o
+ .comment       0x00000000       0x23 obj/string.o
+ .comment       0x00000000       0x23 obj/usb_cdc.o
+ .comment       0x00000000       0x23 obj/cmd.o
+ .comment       0x00000000       0x23 obj/fpgaloader.o
+ .comment       0x00000000       0x23 obj/legicrf.o
+ .comment       0x00000000       0x23 obj/iso14443crc.o
+ .comment       0x00000000       0x23 obj/crc16.o
+ .comment       0x00000000       0x23 obj/epa.o
+ .comment       0x00000000       0x23 obj/iso14443a.o
+ .comment       0x00000000       0x23 obj/mifareutil.o
+ .comment       0x00000000       0x23 obj/mifarecmd.o
+ .comment       0x00000000       0x23 obj/mifaresniff.o
+ .comment       0x00000000       0x23 obj/iso14443.o
+ .comment       0x00000000       0x23 obj/crypto1.o
+ .comment       0x00000000       0x23 obj/legic_prng.o
+ .comment       0x00000000       0x23 obj/iclass.o
+ .comment       0x00000000       0x23 obj/crc.o
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x32 obj/version.o
+ .ARM.attributes
+                0x00000032       0x32 obj/start.o
+ .ARM.attributes
+                0x00000064       0x32 obj/boscloner.o
+ .ARM.attributes
+                0x00000096       0x32 obj/iso15693.o
+ .ARM.attributes
+                0x000000c8       0x32 obj/iso15693tools.o
+ .ARM.attributes
+                0x000000fa       0x32 obj/lfops.o
+ .ARM.attributes
+                0x0000012c       0x32 obj/hitag2.o
+ .ARM.attributes
+                0x0000015e       0x32 obj/appmain.o
+ .ARM.attributes
+                0x00000190       0x32 obj/printf.o
+ .ARM.attributes
+                0x000001c2       0x32 obj/util.o
+ .ARM.attributes
+                0x000001f4       0x32 obj/string.o
+ .ARM.attributes
+                0x00000226       0x32 obj/usb_cdc.o
+ .ARM.attributes
+                0x00000258       0x32 obj/cmd.o
+ .ARM.attributes
+                0x0000028a       0x32 obj/fpgaloader.o
+ .ARM.attributes
+                0x000002bc       0x32 obj/legicrf.o
+ .ARM.attributes
+                0x000002ee       0x32 obj/iso14443crc.o
+ .ARM.attributes
+                0x00000320       0x32 obj/crc16.o
+ .ARM.attributes
+                0x00000352       0x32 obj/epa.o
+ .ARM.attributes
+                0x00000384       0x32 obj/iso14443a.o
+ .ARM.attributes
+                0x000003b6       0x32 obj/mifareutil.o
+ .ARM.attributes
+                0x000003e8       0x32 obj/mifarecmd.o
+ .ARM.attributes
+                0x0000041a       0x32 obj/mifaresniff.o
+ .ARM.attributes
+                0x0000044c       0x32 obj/iso14443.o
+ .ARM.attributes
+                0x0000047e       0x32 obj/crypto1.o
+ .ARM.attributes
+                0x000004b0       0x32 obj/legic_prng.o
+ .ARM.attributes
+                0x000004e2       0x32 obj/iclass.o
+ .ARM.attributes
+                0x00000514       0x32 obj/crc.o
+ .ARM.attributes
+                0x00000546       0x18 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000055e       0x18 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_shi.o)
+ .ARM.attributes
+                0x00000576       0x1a h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000590       0x1a h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000005aa       0x18 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000005c2       0x1a h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x000005dc       0x1a h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x000005f6       0x1a h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)

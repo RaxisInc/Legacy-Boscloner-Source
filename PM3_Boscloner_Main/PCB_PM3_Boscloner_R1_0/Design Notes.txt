@@ -1,0 +1,19 @@
+
+
+Ra.0 errors
+
+- ic9/10 need spaced further based upon replacement part.  Also need to extend pads.
+
+
+- NCA is nowehow connected where the lcd cs should be.  connected MCU_cs to it!?  But
+the correct cs line ps10 is connected to mcu_io3.
+
+
+
+PA10 = LCD CS WHICH IS SETUP IN CODE ALREADY.  CAN USE FOR THE PERIPHERAL BOARD.
+
+
+* routing the SPI pins to shield and secondary processor.
+
+
+

@@ -1,0 +1,195 @@
+Archive member included because of file (symbol)
+
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+                              obj/bootrom.o (__gnu_thumb1_case_uqi)
+h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+                              obj/bootrom.o (__aeabi_ulcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+start_addr          0x4               obj/bootrom.o
+end_addr            0x4               obj/bootrom.o
+bootrom_unlocked    0x4               obj/bootrom.o
+csrTab              0x190             obj/usb_cdc.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/version.o
+ .data          0x00000000        0x0 obj/version.o
+ .bss           0x00000000        0x0 obj/version.o
+ .text          0x00000000        0x0 obj/ram-reset.o
+ .data          0x00000000        0x0 obj/ram-reset.o
+ .bss           0x00000000        0x0 obj/ram-reset.o
+ .text          0x00000000        0x0 obj/flash-reset.o
+ .data          0x00000000        0x0 obj/flash-reset.o
+ .bss           0x00000000        0x0 obj/flash-reset.o
+ .data          0x00000000        0x0 obj/cmd.o
+ .bss           0x00000000        0x0 obj/cmd.o
+ COMMON         0x00000000      0x190 obj/usb_cdc.o
+ .data          0x00000000        0x0 obj/bootrom.o
+ .bss           0x00000000        0x0 obj/bootrom.o
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+ .bss           0x00000000        0x0 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bootphase1       0x00100000         0x00000200
+bootphase2       0x00100200         0x00001e00
+fpgaimage        0x00102000         0x0000e000
+osimage          0x00110000         0x00030000
+ram              0x00200000         0x0000ffe0
+commonarea       0x0020ffe0         0x00000020
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x001001fc                _bootphase1_version_pointer = ((ORIGIN (bootphase1) + 0x200) - 0x4)
+                0x00110000                _osimage_entry = ORIGIN (osimage)
+                0x00100000                _bootrom_start = ORIGIN (bootphase1)
+                0x00102000                _bootrom_end = (ORIGIN (bootphase2) + 0x1e00)
+                0x00100000                _flash_start = ORIGIN (bootphase1)
+                0x00140000                _flash_end = (ORIGIN (osimage) + 0x30000)
+                0x0020ffd8                _stack_end = ((ORIGIN (ram) + 0xffe0) - 0x8)
+
+.bootphase1     0x00100000      0x200
+ *(.startup)
+ .startup       0x00100000       0x70 obj/flash-reset.o
+                0x00100000                flashstart
+                0x00100070                . = ALIGN (0x4)
+                0x00100070                _version_information_start = .
+ *(.version_information)
+ .version_information
+                0x00100070       0x2e obj/version.o
+                0x00100070                version_information
+                0x000001fc                . = 0x1fc
+ *fill*         0x0010009e      0x15e 00
+                0x001001fc        0x4 LONG 0x100070 _version_information_start
+
+.vfp11_veneer   0x00100200        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00100200        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00100200        0x0
+ .iplt          0x00000000        0x0 obj/ram-reset.o
+
+.igot.plt       0x00100200        0x0
+ .igot.plt      0x00000000        0x0 obj/ram-reset.o
+
+.rel.dyn        0x00100200        0x0
+ .rel.iplt      0x00000000        0x0 obj/ram-reset.o
+
+.bootphase2     0x00200000      0xb60 load address 0x00100200
+ *(.startphase2)
+ .startphase2   0x00200000        0xc obj/ram-reset.o
+                0x00200000                ram_start
+ *(.text)
+ .text          0x0020000c       0xac obj/cmd.o
+                0x0020000c                cmd_receive
+                0x00200038                cmd_send
+ .text          0x002000b8      0x558 obj/usb_cdc.o
+                0x0020012e                usb_disable
+                0x00200154                usb_enable
+                0x002001ac                AT91F_USB_SendZlp
+                0x002001d0                AT91F_USB_SendStall
+                0x002001f4                AT91F_CDC_Enumerate
+                0x0020046c                usb_check
+                0x002004c0                usb_write
+                0x00200570                usb_read
+                0x002005e8                usb_poll
+ .text          0x00200610      0x3dc obj/bootrom.o
+                0x00200610                DbpString
+                0x00200636                UsbPacketReceived
+                0x002008a0                BootROM
+ .text          0x002009ec       0x14 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+                0x002009ec                __gnu_thumb1_case_uqi
+ .text          0x00200a00       0x24 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)
+                0x00200a00                __aeabi_ulcmp
+ *(.text.*)
+ .text.unlikely
+                0x00200a24       0xa0 obj/bootrom.o
+ *fill*         0x00200ac4        0x4 00
+ .text.unlikely.stub
+                0x00200ac8       0x14 linker stubs
+ *(.eh_frame)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.rodata)
+ .rodata        0x00200ae0       0x6f obj/usb_cdc.o
+                0x00200ae0                devDescriptor
+                0x00200af2                cfgDescriptor
+                0x00200b35                strDescriptor
+ *(.rodata.*)
+ *(.data)
+ *fill*         0x00200b4f        0x1 00
+ .data          0x00200b50       0x10 obj/usb_cdc.o
+                0x00200b50                pUdp
+                0x00200b54                line
+                0x00200b5c                btReceiveBank
+ *(.data.*)
+                0x00200b60                . = ALIGN (0x4)
+                0x00100200                __bootphase2_src_start__ = LOADADDR (.bootphase2)
+                0x00200000                __bootphase2_start__ = ADDR (.bootphase2)
+                0x00200b60                __bootphase2_end__ = (__bootphase2_start__ + SIZEOF (.bootphase2))
+
+.bss            0x00200b60       0x10
+                0x00200b60                __bss_start__ = .
+ *(.bss)
+ .bss           0x00200b60        0x3 obj/usb_cdc.o
+                0x00200b60                btConfiguration
+                0x00200b61                btConnection
+                0x00200b62                csrIdx
+ *(.bss.*)
+                0x00200b64                . = ALIGN (0x4)
+ *fill*         0x00200b63        0x1 00
+                0x00200b64                __bss_end__ = .
+ COMMON         0x00200b64        0xc obj/bootrom.o
+                0x00200b64                start_addr
+                0x00200b68                end_addr
+                0x00200b6c                bootrom_unlocked
+
+.commonarea     0x0020ffe0        0xf
+ *(.commonarea)
+ .commonarea    0x0020ffe0        0xf obj/bootrom.o
+                0x0020ffe0                common_area
+LOAD obj/version.o
+LOAD obj/ram-reset.o
+LOAD obj/flash-reset.o
+LOAD obj/cmd.o
+LOAD obj/usb_cdc.o
+LOAD obj/bootrom.o
+LOAD h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a
+OUTPUT(obj/bootrom.elf elf32-littlearm)
+
+.comment        0x00000000       0x22
+ .comment       0x00000000       0x22 obj/version.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 obj/cmd.o
+ .comment       0x00000000       0x23 obj/usb_cdc.o
+ .comment       0x00000000       0x23 obj/bootrom.o
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x32 obj/version.o
+ .ARM.attributes
+                0x00000032       0x16 obj/ram-reset.o
+ .ARM.attributes
+                0x00000048       0x18 obj/flash-reset.o
+ .ARM.attributes
+                0x00000060       0x32 obj/cmd.o
+ .ARM.attributes
+                0x00000092       0x32 obj/usb_cdc.o
+ .ARM.attributes
+                0x000000c4       0x32 obj/bootrom.o
+ .ARM.attributes
+                0x000000f6       0x18 h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000010e       0x1a h:/dropbox/prj/rfid_new/src/proxspace-130613_mod/proxspace/devkitarm/bin/../lib/gcc/arm-none-eabi/4.7.1\libgcc.a(_aeabi_ulcmp.o)

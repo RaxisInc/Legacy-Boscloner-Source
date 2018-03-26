@@ -1,0 +1,561 @@
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+#db# Prox/RFID mark3 RFID instrument       
+#db# bootrom: svn 852-unclean 2015-11-17 21:51:52       
+#db# os: svn 852-unclean 2015-11-17 23:24:12       
+#db# FPGA image built on 2014/03/24 at 21:54:44       
+uC: AT91SAM7S256 Rev A
+Embedded Processor: ARM7TDMI
+Nonvolatile Program Memory Size: 256K bytes
+Second Nonvolatile Program Memory Size: None
+Internal SRAM Size: 256K bytes
+Architecture Identifier: AT91SAM7Sxx Series
+Nonvolatile Program Memory Type: Embedded Flash Memory
+#db# Prox/RFID mark3 RFID instrument       
+#db# bootrom: svn 852-unclean 2015-11-17 21:51:52       
+#db# os: svn 852-unclean 2015-11-17 23:24:12       
+#db# FPGA image built on 2014/03/24 at 21:54:44       
+uC: AT91SAM7S256 Rev A
+Embedded Processor: ARM7TDMI
+Nonvolatile Program Memory Size: 256K bytes
+Second Nonvolatile Program Memory Size: None
+Internal SRAM Size: 256K bytes
+Architecture Identifier: AT91SAM7Sxx Series
+Nonvolatile Program Memory Type: Embedded Flash Memory
+#db# Prox/RFID mark3 RFID instrument       
+#db# bootrom: svn 852-unclean 2015-11-17 21:51:52       
+#db# os: svn 852-unclean 2015-11-17 23:24:12       
+#db# FPGA image built on 2014/03/24 at 21:54:44       
+uC: AT91SAM7S256 Rev A
+Embedded Processor: ARM7TDMI
+Nonvolatile Program Memory Size: 256K bytes
+Second Nonvolatile Program Memory Size: None
+Internal SRAM Size: 256K bytes
+Architecture Identifier: AT91SAM7Sxx Series
+Nonvolatile Program Memory Type: Embedded Flash Memory
+#db# Prox/RFID mark3 RFID instrument       
+#db# bootrom: svn 852-unclean 2015-11-17 21:51:52       
+#db# os: svn 852-unclean 2015-11-17 23:24:12       
+#db# FPGA image built on 2014/03/24 at 21:54:44       
+uC: AT91SAM7S256 Rev A
+Embedded Processor: ARM7TDMI
+Nonvolatile Program Memory Size: 256K bytes
+Second Nonvolatile Program Memory Size: None
+Internal SRAM Size: 256K bytes
+Architecture Identifier: AT91SAM7Sxx Series
+Nonvolatile Program Memory Type: Embedded Flash Memory
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna: 14.50 V @   125.00 kHz
+# LF antenna: 23.23 V @   134.00 kHz
+# LF optimal: 26.18 V @   131.87 kHz
+# HF antenna:  0.71 V @    13.56 MHz
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna: 14.37 V @   125.00 kHz
+# LF antenna: 23.50 V @   134.00 kHz
+# LF optimal: 26.18 V @   131.87 kHz
+# HF antenna:  0.68 V @    13.56 MHz
+# Your HF antenna is unusable.
+help             This help
+14a              { ISO14443A RFIDs... }
+14b              { ISO14443B RFIDs... }
+15               { ISO15693 RFIDs... }
+epa              { German Identification Card... }
+legic            { LEGIC RFIDs... }
+iclass           { ICLASS RFIDs... }
+mf               { MIFARE RFIDs... }
+tune             Continuously measure HF antenna tuning
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+#db# Prox/RFID mark3 RFID instrument       
+#db# bootrom: svn 852-unclean 2015-11-17 21:51:52       
+#db# os: svn 852-unclean 2015-11-18 01:40:38       
+#db# FPGA image built on 2014/03/24 at 21:54:44       
+uC: AT91SAM7S256 Rev A
+Embedded Processor: ARM7TDMI
+Nonvolatile Program Memory Size: 256K bytes
+Second Nonvolatile Program Memory Size: None
+Internal SRAM Size: 256K bytes
+Architecture Identifier: AT91SAM7Sxx Series
+Nonvolatile Program Memory Type: Embedded Flash Memory
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna:  0.00 V @   125.00 kHz
+# LF antenna:  0.00 V @   134.00 kHz
+# LF optimal:  0.00 V @ 12000.00 kHz
+# HF antenna:  0.06 V @    13.56 MHz
+# Your LF antenna is unusable.
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna:  0.00 V @   125.00 kHz
+# LF antenna:  0.00 V @   134.00 kHz
+# LF optimal:  0.00 V @ 12000.00 kHz
+# HF antenna:  0.13 V @    13.56 MHz
+# Your LF antenna is unusable.
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna:  0.00 V @   125.00 kHz
+# LF antenna:  0.00 V @   134.00 kHz
+# LF optimal:  0.00 V @ 12000.00 kHz
+# HF antenna:  0.10 V @    13.56 MHz
+# Your LF antenna is unusable.
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna:  0.00 V @   125.00 kHz
+# LF antenna:  0.00 V @   134.00 kHz
+# LF optimal:  0.00 V @ 12000.00 kHz
+# HF antenna:  0.06 V @    13.56 MHz
+# Your LF antenna is unusable.
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna: 13.70 V @   125.00 kHz
+# LF antenna: 24.17 V @   134.00 kHz
+# LF optimal: 26.05 V @   131.87 kHz
+# HF antenna:  0.61 V @    13.56 MHz
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna: 13.70 V @   125.00 kHz
+# LF antenna: 24.17 V @   134.00 kHz
+# LF optimal: 26.05 V @   131.87 kHz
+# HF antenna:  0.74 V @    13.56 MHz
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna: 13.70 V @   125.00 kHz
+# LF antenna: 24.17 V @   134.00 kHz
+# LF optimal: 26.18 V @   131.87 kHz
+# HF antenna:  0.71 V @    13.56 MHz
+# Your HF antenna is unusable.
+#db# Measuring antenna characteristics, please wait...       
+#db# Measuring complete, sending report back to host       
+
+# LF antenna: 13.70 V @   125.00 kHz
+# LF antenna: 24.17 V @   134.00 kHz
+# LF optimal: 26.05 V @   131.87 kHz
+# HF antenna:  0.71 V @    13.56 MHz
+# Your HF antenna is unusable.
+Sending bytes to proxmark failed
+Cloning tag with ID a987654321
+
+hi2:0 hi:a9 lo:87654321
+#db# DONE!       
+Cloning tag with ID 2400a71234
+
+hi2:0 hi:24 lo:a71234
+#db# DONE!       
+Cloning tag with ID 2400a71234
+
+hi2:0 hi:24 lo:a71234
+#db# DONE!       
+Cloning tag with ID 2400a71234
+
+hi2:0 hi:24 lo:a71234
+#db# DONE!       
+Cloning tag with ID 2400a71234
+
+hi2:0 hi:24 lo:a71234
+#db# DONE!       
+Cloning tag with ID 2400a71234
+
+hi2:0 hi:24 lo:a71234
+#db# DONE!       
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+Cloning tag with ID a987654321
+
+hi2:0 hi:a9 lo:87654321
+#db# arg0:0 arg1:0 arg2:0 c->d.asBytes:a9       
+#db# DONE!       
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:0 arg1:0 arg2:0 c->d.asBytes:24       
+#db# DONE!       
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+Sending bytes to proxmark failed - offline
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+Sending bytes to proxmark failed - offline
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# DONE!       
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:
+       
+#db# hi2:1a hi:1 lo:111df7 longfmt:0       
+#db# DONE!       
+help             This help. Use '<command> help' for details of the following commands:
+
+data             { Plot window / data buffer manipulation... }
+exit             Exit program
+hf               { HF commands... }
+hw               { Hardware commands... }
+lf               { LF commands... }
+quit             Quit program
+script           Run script
+Cloning tag with ID 2400a724c5
+
+hi2:0 hi:24 lo:a724c5
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2x:34 hix:1 lox:1121789 longfmt:0       
+#db# DONE!       
+Cloning tag with ID 2400a724c5
+
+hi2:0 hi:24 lo:a724c5
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2x:34 hix:1 lox:1121789 longfmt:0       
+#db# DONE!       
+Cloning tag with ID 2400a724c1
+
+hi2:0 hi:24 lo:a724c1
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2x:34 hix:1 lox:1121789 longfmt:0       
+#db# DONE!       
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2x:34 hix:1 lox:1121789 longfmt:0       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+Sending bytes to proxmark failed - offline
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2x:34 hix:1 lox:1121789 longfmt:0       
+#db# data1:       3 data2:       4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72431
+
+hi2:0 hi:24 lo:a72431
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72431
+
+hi2:0 hi:24 lo:a72431
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72432
+
+hi2:0 hi:24 lo:a72432
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72433
+
+hi2:0 hi:24 lo:a72433
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72434
+
+hi2:0 hi:24 lo:a72434
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72434
+
+hi2:0 hi:24 lo:a72434
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72434
+
+hi2:0 hi:24 lo:a72434
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72434
+
+hi2:0 hi:24 lo:a72434
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72434
+
+hi2:0 hi:24 lo:a72434
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72434
+
+hi2:0 hi:24 lo:a72434
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72435
+
+hi2:0 hi:24 lo:a72435
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+Cloning tag with ID 2400a72435
+
+hi2:0 hi:24 lo:a72435
+Cloning tag with ID 2400a72435
+
+hi2:0 hi:24 lo:a72435
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72436
+
+hi2:0 hi:24 lo:a72436
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72437
+
+hi2:0 hi:24 lo:a72437
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72438
+
+hi2:0 hi:24 lo:a72438
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72438
+
+hi2:0 hi:24 lo:a72438
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a72438
+
+hi2:0 hi:24 lo:a72438
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+Cloning tag with ID 2400a72438
+
+hi2:0 hi:24 lo:a72438
+Sending bytes to proxmark failed
+Cloning tag with ID 2400a72431
+
+hi2:0 hi:24 lo:a72431
+Sending bytes to proxmark failed - offline
+Cloning tag with ID 2400a724c4
+
+hi2:0 hi:24 lo:a724c4
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a724c5
+
+hi2:0 hi:24 lo:a724c5
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a724c6
+
+hi2:0 hi:24 lo:a724c6
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a724c7
+
+hi2:0 hi:24 lo:a724c7
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400a724c8
+
+hi2:0 hi:24 lo:a724c8
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:111df7 longfmt:0       
+#db# hi2:34 hi:1 lo:1121789 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       
+Cloning tag with ID 2400123456
+
+hi2:0 hi:24 lo:123456
+#db# arg0:(null) arg1:(null) arg2:(null) c->d.asBytes:24       
+#db# CopyHIDtoT55x7 function:       
+#db# hi2x:18 hix:1 lox:112077 longfmt:0       
+#db# hi2:34 hi:1 lo:1122429 longfmt:0       
+#db# preamble:1d000000       
+#db# data1:3 data2:4 data3:ffffffff       
+#db# DONE!       

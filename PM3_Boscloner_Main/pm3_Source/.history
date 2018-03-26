@@ -1,0 +1,6 @@
+lf hid clone 2400123456
+lf hid fskdemod
+hw tune
+hw tune
+hw tune
+hw tune
